@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +26,21 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat),Arial, Helvetica, sans-serif;
+}
+
+/* Custom scroll style */
+.scrollbox::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbox::-webkit-scrollbar-track {
+  background: #e5e7eb; /* gray-200 */
+  border-radius: 9999px;
+}
+.scrollbox::-webkit-scrollbar-thumb {
+  background: #9ca3af; /* gray-400 */
+  border-radius: 9999px;
+}
+.scrollbox::-webkit-scrollbar-thumb:hover {
+  background: #f2b713; /* your yellow */
 }
