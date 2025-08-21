@@ -293,34 +293,6 @@ export default function Home() {
         )
       }
 
-
-      {/* <div className="bg-[#2e2e2e] p-5 contact" id="contact">
-        <div className="flex flex-col gap-5 items-center pb-12">
-          <div>
-            <h1 className="text-4xl font-bold text-[#f2b713]">Contact Us</h1>
-          </div>
-          <div className="flex flex-col gap-3 w-full max-w-md px-4">
-            <div className="flex flex-col gap-3 w-full">
-              <input
-                className="bg-[#2e2e2e] border-2 border-[#f2b713] rounded-md p-2 text-[#f8f8f8] focus:outline-none focus:ring-2 focus:ring-[#959595] focus:border-[#2e2e2e]"
-                type="text" placeholder="Full name" />
-              <input
-                className="bg-[#2e2e2e] border-2 border-[#f2b713] rounded-md p-2 text-[#f8f8f8] focus:outline-none focus:ring-2 focus:ring-[#959595] focus:border-[#2e2e2e]"
-                placeholder="Email" />
-            </div>
-            <div>
-              <textarea
-                className="w-full bg-[#2e2e2e] border-2 border-[#f2b713] rounded-md p-2 text-[#f8f8f8] focus:outline-none focus:ring-2 focus:ring-[#959595] focus:border-[#2e2e2e] resize-none"
-                rows="4" placeholder="Message me"></textarea>
-            </div>
-            <button type="submit"
-              className="bg-[#f2b713] py-2 rounded-md text-xl font-medium text-[#2e2e2e] hover:bg-[#2e2e2e] hover:border-[#f2b713] hover:text-[#f2b713] transition-all duration-300 border-2 border-[#2e2e2e]">
-              Submit
-            </button>
-          </div>
-        </div>
-      </div> */}
-
       <div className="bg-[#2e2e2e] p-5 contact" id="contact">
         <div className="flex flex-col gap-5 items-center pb-12">
           <h1 className="text-4xl font-bold text-[#f2b713]">Contact Us</h1>
