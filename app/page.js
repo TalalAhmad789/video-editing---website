@@ -104,7 +104,7 @@ export default function Home() {
         <div className="bg-[#2e2e2e] absolute w-full inset-0 opacity-90"></div>
         <div
           className="home-content relative flex items-center justify-center flex-col h-full px-4 md:px-8 lg:px-20 z-10">
-          <h1 className="text-[#f8f8f8] text-xl md:text-2xl font-semibold mb-1">HELLO I'M</h1>
+          <h1 className="text-[#f8f8f8] text-xl md:text-2xl font-semibold mb-1">HELLO I&apos;M</h1>
           <h1 className="text-[#f2b713] font-extrabold text-2xl md:text-5xl mb-1"><Typewriter
             options={{
               strings: ['Video Editor', 'Motion Designer', "Graphic Designer"],
@@ -132,10 +132,10 @@ export default function Home() {
             <h1 className="text-[#f2b713] text-xl lg:text-2xl font-semibold">About Me</h1>
             <p className="text-[#f8f8f8] font-light text-sm md:text-base lg:text-lg">Welcome to my Website! With 3+
               years of experience in Adobe Premiere Pro, I specialize in professional video editing services.
-              Whether it's a commercial, music video, YouTube video or short film, I'm dedicated to delivering
+              Whether it&apos;s a commercial, music video, YouTube video or short film, I&apos;m dedicated to delivering
               stunning visuals that tell your story.</p>
             <p className="text-[#f8f8f8] font-light text-sm md:text-base lg:text-lg">My expertise in Premiere Pro
-              ensures a smooth editing process and high-quality results. Let's create something amazing together!
+              ensures a smooth editing process and high-quality results. Let&apos;s create something amazing together!
             </p>
             <div className="btn-cont flex flex-col sm:flex-row items-center gap-4">
               <Link href={'/'}
