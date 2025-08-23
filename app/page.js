@@ -174,7 +174,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="portfolio" className="flex lg:flex-row flex-col w-full bg-[#2e2e2e] px-4 sm:px-6 py-10 sm:py-16 lg:py-24 gap-6">
+
+      <h1 className="text-center text-4xl bg-[#2e2e2e] font-[600] text-[#f2b713]">My Portfolio</h1>
+      <div id="portfolio" className="flex lg:flex-row flex-col w-full bg-[#2e2e2e] px-4 sm:px-6 py-10 sm:py-16 lg:py-10 gap-6">
         <div
           onClick={() => { setMenu(!menu) }}
           className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 border-2 rounded-lg p-6 sm:p-8 lg:p-10 border-black cursor-pointer"
@@ -227,6 +229,10 @@ export default function Home() {
           </a>
         </div>
       </div>
+
+
+
+
 
       {
         menu && (
