@@ -113,7 +113,7 @@ export default function Home() {
             }}
           /></h1>
           <h1 className="text-[#f2b713] font-extrabold text-2xl md:text-5xl mb-1"><span className="auto-type"></span></h1>
-          <p className="text-[#f8f8f8] font-light text-center mb-6 text-sm md:text-base lg:text-lg">With over 3 years
+          <p className="text-[#f8f8f8] font-light text-center mb-6 text-sm md:text-base lg:text-lg">With over 4 years
             of experience in Adobe Premiere Pro, I offer professional video editing services for commercials,
             music videos, YouTube content, and short films, delivering stunning visuals and high-quality
             results.</p>
@@ -127,13 +127,10 @@ export default function Home() {
       <div id="about" className="bg-[#2e2e2e]">
         <div
           className="flex flex-col lg:flex-row justify-center items-center py-16 lg:py-20 px-6 lg:px-24 gap-8 lg:gap-16 AnimationController">
-          <Image width={200} height={200} src="/profile.png" className="lg:w-[280px] rounded-full" alt="Profile" />
+          <Image width={200} height={200} src="/profile.jpg" className="lg:w-[280px] rounded-full" alt="Profile" />
           <div className="about-content flex flex-col gap-4 lg:gap-5">
             <h1 className="text-[#f2b713] text-xl lg:text-2xl font-semibold">About Me</h1>
-            <p className="text-[#f8f8f8] font-light text-sm md:text-base lg:text-lg">Welcome to my Website! With 3+
-              years of experience in Adobe Premiere Pro, I specialize in professional video editing services.
-              Whether it&apos;s a commercial, music video, YouTube video or short film, I&apos;m dedicated to delivering
-              stunning visuals that tell your story.</p>
+            <p className="text-[#f8f8f8] font-light text-sm md:text-base lg:text-lg">I&apos;m Talal, a professional video editor with 4 years of experience producing high-quality, engaging content. Whether it&apos;s for YouTube, social media, corporate use, or a personal project, I deliver customized video editing services tailored to your needs. With a strong background in editing and social media marketing, I bring a sharp eye for visuals and storytelling. I also offer unlimited revisions to ensure your complete satisfaction and guarantee a quick turnaround.</p>
             <p className="text-[#f8f8f8] font-light text-sm md:text-base lg:text-lg">My expertise in Premiere Pro
               ensures a smooth editing process and high-quality results. Let&apos;s create something amazing together!
             </p>
